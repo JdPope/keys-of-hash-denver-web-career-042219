@@ -1,5 +1,13 @@
 class Hash
-  def keys_of(arguments)
-    # code goes here
+  def keys_of(*values)
+    keys = []
+    if Hash.has_value?(values)
+      keys<< hash.index(values)
+    end
+    return keys
+  
+    
+    
+    
   end
 end
