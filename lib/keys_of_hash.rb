@@ -1,8 +1,9 @@
 class Hash
   def keys_of(*values)
     keys = []
-    if has_value?(values)
-      keys<< index(values)
+    values.each do |value|
+    if has_value?(value)
+      keys<< index(value)
     end
     return keys
   
