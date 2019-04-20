@@ -5,6 +5,7 @@ class Hash
     if has_value?(value)
       keys<< index(value)
     end
+  end
     return keys
   
     
